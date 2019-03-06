@@ -26,8 +26,8 @@ public class Browser {
 
 	public static WebDriver launch() {
 		desiredCap = DesiredCapabilities.chrome();
-		//runType="CLOUD";
-		runType="local";
+		runType="CLOUD";
+		//runType="local";
 		browser="chrome";
 
 		ChromeOptions options = new ChromeOptions();
