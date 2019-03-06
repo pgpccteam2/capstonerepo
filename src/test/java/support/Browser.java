@@ -56,7 +56,7 @@ public class Browser {
 			System.setProperty("webdriver.chrome.driver", "C:/Windows/System32/chromedriver.exe");
 			desiredCap.setCapability("chrome.binary", "C:/Windows/System32/chromedriver.exe");
 		}
-		else if(systemOSName.contains("linux") || (systemOSName.contains("Linux") || systemOSName.contains("Ubuntu") || systemOSName.contains("ubuntu") ) {
+		else if(systemOSName.contains("linux") || systemOSName.contains("Linux") || systemOSName.contains("Ubuntu") || systemOSName.contains("ubuntu") ) {
 			//if OS is ubuntu
 			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 			desiredCap.setCapability("chrome.binary", "/opt/google/chrome/google-chrome");
