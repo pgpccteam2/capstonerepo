@@ -20,7 +20,7 @@ public class Browser {
 		systemOSName = System.getProperty("os.name");
 		desiredCap = DesiredCapabilities.chrome();
 		runType="CLOUD";
-		runType="local";
+		//runType="local";
 		browser="chrome";
 	}
 
